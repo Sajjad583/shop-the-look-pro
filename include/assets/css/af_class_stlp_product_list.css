@@ -1,0 +1,196 @@
+
+.stlp-popup-section{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  top: 0;
+  height: 100vh;
+  overflow: hidden auto;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999999;
+ }
+ .stlp_pro_name{
+    color: #2271b1 !important;
+}
+.stlp-popup-section .popup-main{
+   background: #fff;
+   top: 50%;
+   left: 50%;
+   border: 1px solid lightgray;
+   font-family: sans-serif;
+   width: 100%;
+   position: fixed;
+   max-width: 450px;
+   margin: 0 auto;
+   box-shadow: 0px 1px 16px 0px rgb(0 0 0 / 19%);
+   transform: translate(-50%, -50%);
+}
+order_table_body_row
+.stlp-popup-section .popup-header{
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    background: #fcfcfc;
+    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stlp-popup-section .popup-header h1{
+     color: #1d2327;
+    margin: 0px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 25px;
+    font-weight: 650;
+}
+.stlp-popup-section .popup-product-data{
+  padding:30px 20px;
+}
+.stlp-popup-section .main-popup-data{
+        display: flex;
+       justify-content: space-between;
+        padding: 30px 22px; 
+}
+.stlp-popup-section table{
+  width: 100%;
+  border: 1px solid lightgrey;
+      border-collapse: collapse;
+}
+ .table_tr_heading{
+    font-weight: 600 bold;
+    border-bottom: 1px solid lightgrey;
+    background-color: #fff !important;
+}
+.stlp-popup-section table tr:nth-child(odd){
+     background-color: #fff;
+}
+.stlp-popup-section table tr:nth-child(even){
+     background-color: #e6e6e66b;
+}
+
+.stlp-popup-section table tr th{
+    font-weight: 600 bold;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    padding: 8px 7px;
+   border-bottom: 1px solid lightgrey;
+  }  
+  .table_heading{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+} 
+.stlp-popup-section table tr td{
+   padding: 15px 0;
+   text-align: center;
+}
+.stlp-popup-section .popup-footer{
+    z-index: 100;
+    padding: 1em 1.5em;
+    background: #fcfcfc;
+    border-top: 1px solid #dfdfdf;
+    box-shadow: 0 -4px 4px -4px rgb(0 0 0 / 10%);
+    height: 10px;
+    border-top: 1px solid lightgrey;
+}
+.fa-times{
+  width: 50px;
+  border: none;
+}
+.closs{
+   cursor: pointer;
+    color: #777;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    border: 0;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: transparent;
+    transition: color .1s ease-in-out,background .1s ease-in-out;
+}
+.stlp_view_product{
+    background-color: initial;
+    border: navajowhite;
+    color: #135e96 !important;
+}
+.product_popup_data{
+    display: inline-block;
+}
+.pro_order_table{
+    margin-top: 70px;
+}
+.order_table{
+    table-layout: fixed;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0px;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    color: #3c434a;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 15px;
+}
+.order_table_heading{
+    background: #fff;
+    line-height: 2.4em;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.order_table_head_row{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.order_table_body{
+    font-size: 12px;
+    line-height: 1.4em;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.order_table_body_row{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.order_table_foot{
+    background: #fff;
+    line-height: 2.4em;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.order_table_foot_row{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.order_table_body_row2{
+    font-size: 15px;
+    font: normal;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    line-height: 2.4em;
+    vertical-align: middle;
+    border-color: inherit;
+}
